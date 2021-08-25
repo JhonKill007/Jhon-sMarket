@@ -1,0 +1,69 @@
+﻿@model IEnumerable<ElMercaditoWeb.Models.Productos>
+
+
+
+
+<div class="container card">
+    <h1 class="text-center">Administracion de productos</h1>
+    <p>
+        <a class="btn btn-primary" asp-action="Create">Agregar producto</a>
+    </p>
+    <p>
+        <a class="btn btn-primary" asp-controller="Categorias" asp-action="Index">Agregar Categoria</a>
+    </p>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Nombre)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Descripcion)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Precio)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Imagen)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Disponibilidad)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.IdCategoriaNavigation)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Nombre)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Descripcion)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Precio)
+                    </td>
+                    <td>
+                        <img src="@Html.DisplayFor(modelItem => item.Imagen)" height="60px">
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Disponibilidad)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.IdCategoriaNavigation.Nombre)
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.IdProductos" class="btn btn-primary"><img src="https://image.flaticon.com/icons/svg/860/860814.svg" height="20"/></a> |
+                        <a asp-action="Details" asp-route-id="@item.IdProductos"><img src="https://image.flaticon.com/icons/svg/751/751463.svg" height="20"/></a> |
+                        <a asp-action="Delete" asp-route-id="@item.IdProductos" class="btn btn-danger"><img src="https://image.flaticon.com/icons/svg/1214/1214428.svg" height="20"/></a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

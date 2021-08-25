@@ -1,0 +1,60 @@
+﻿@model ElMercaditoWeb.Models.Productos
+
+@{
+    ViewData["Title"] = "Delete";
+}
+    <div class="container card">
+        <h1>Borrar</h1>
+
+        <h3>Esta seguro que quiere borrar esto</h3>
+        <div>
+            <h4>Productos</h4>
+            <hr />
+            <dl class="row">
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.Nombre)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.Nombre)
+                </dd>
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.Descripcion)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.Descripcion)
+                </dd>
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.Precio)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.Precio)
+                </dd>
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.Imagen)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.Imagen)
+                </dd>
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.Disponibilidad)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.Disponibilidad)
+                </dd>
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.IdCategoriaNavigation)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.IdCategoriaNavigation.Nombre)
+                </dd>
+            </dl>
+
+
+            <form asp-action="Delete">
+                <input type="hidden" asp-for="IdProductos" />
+                <input type="submit" value="Borrar" class="btn btn-danger" /> |
+                <a asp-action="Index">Atras</a>
+            </form>
+        </div>
+
+    </div>

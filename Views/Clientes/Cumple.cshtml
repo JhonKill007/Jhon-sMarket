@@ -1,0 +1,55 @@
+﻿@model IEnumerable<ElMercaditoWeb.Models.Clientes>
+
+@{
+    ViewData["Title"] = "Cumple";
+}
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@using Microsoft.AspNetCore.Authorization
+@inject IAuthorizationService AuthorizationService
+
+
+
+@if ((await AuthorizationService.AuthorizeAsync(User, "Admin")).Succeeded)
+{
+    <table class="table">
+    
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Usuario)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.NombrePersona)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FechaCumpleanos)
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+}
+
+

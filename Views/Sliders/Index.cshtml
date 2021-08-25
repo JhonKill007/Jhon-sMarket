@@ -1,0 +1,48 @@
+﻿@model IEnumerable<ElMercaditoWeb.Models.Slider>
+
+@{
+    ViewData["Title"] = "Index";
+}
+    <div class="container mt-5 card">
+      
+        <h1>Manejador de slider</h1>
+
+        
+        
+        <table class="table mt-3">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Img1)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Img2)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Img3)
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <div><a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary">Editar</a>
+                         <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-secondary">Detalles</a>
+                    </div>
+                    <tr>
+                        <td>
+                            <img src="@Html.DisplayFor(modelItem => item.Img1)" height="175" />
+                        </td>
+                        <td>
+                            <img src="@Html.DisplayFor(modelItem => item.Img2)" height="175" />
+                        </td>
+                        <td>
+                            <img src="@Html.DisplayFor(modelItem => item.Img3)" height="175" />
+                        </td>
+                    </tr>
+
+                }
+            </tbody>
+        </table>
+    </div>

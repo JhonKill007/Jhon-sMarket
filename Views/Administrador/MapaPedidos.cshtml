@@ -1,0 +1,52 @@
+﻿
+<br />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea8</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <div id="map" style="height:600px" class="border border-warning"></div>
+    </div>
+
+    <script>
+        var map = L.map('map').fitWorld();
+
+
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+
+
+        map.flyTo([18.57, -69.91], 14);
+        L.marker([18.57, -69.91]).addTo(map)
+            .bindPopup('Primero.')
+            .openPopup();
+
+        L.marker([44.5, 23.09]).addTo(map)
+            .bindPopup('Segundo.')
+            .openPopup();
+
+
+    </script>
+
+    <script>
+        L.marker([78.5, 65.09]).addTo(map)
+            .bindPopup('Tercero.')
+            .openPopup();
+
+        L.marker([32.5, -12.09]).addTo(map)
+            .bindPopup('Cuarto.')
+            .openPopup();
+
+    </script>
+</body>
+</html>

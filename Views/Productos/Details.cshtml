@@ -1,0 +1,45 @@
+﻿@model ElMercaditoWeb.Models.Productos
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div class="container ">
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-8 text-center card">
+                <img class="img-fluid text-center" src=" @Html.DisplayFor(model => model.Imagen)" height="850" width="800" />
+            </div>
+            <div class="col-4 card text-center p-5">
+                <h2 class="card-title">@Html.DisplayFor(model => model.Nombre)</h2>
+                <hr />
+                <h5><span class="text-secondary">Precio:</span>  @Html.DisplayFor(model => model.Precio)$</h5>
+                <hr />
+                <h5 class=""><span class="text-secondary">Descripcion:</span>  @Html.DisplayFor(model => model.Descripcion)</h5>
+                <hr />
+                <h5><span class="text-secondary">En stock:</span> @Html.DisplayFor(model => model.Disponibilidad)</h5>
+                <hr />
+                <h5>Cantidad</h5>
+                <form action="/Productos/Carrito" method="post">
+                    <input type="hidden" value="@Html.DisplayFor(model => model.IdProductos)"  name="IdProductos"/>
+                    <input type="number" name="Cantidad"/>
+                    <input type="submit" value="Comprar" class="btn btn-outline-success mt-4"/>
+                </form>
+
+                <hr />
+
+           
+                
+            </div>
+        </div>
+
+
+    </div>
+
+    <div>
+        <a asp-action="GetTodos">Volver a la lista</a>
+    </div>
+
+</div>

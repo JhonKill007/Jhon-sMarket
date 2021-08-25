@@ -1,0 +1,102 @@
+﻿@model Productos
+<div class="container">
+    <div class="row">
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="card text-center p-5  mt-5 ml-auto mr-auto">
+            <div class="card-header">
+                <b>Pago <i class="fab fa-paypal"></i> </b>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Articulos del carrito</h5>
+
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Nombre</th>
+                            <th scope="col">cantidad</th>
+                            <th scope="col">Precio</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    <th scope="row"></th>
+                    <td>@ViewBag.sessionN</td>
+                    <td>@ViewBag.sessionN2</td>
+                    <td>@ViewBag.sessionN1</td>
+                    @{var total = (@ViewBag.sessionN2 * @ViewBag.sessionN1);}
+                    <td>Total :@total </td>
+                    </tr>
+                   
+                    <input value="@total" id="total" type="hidden" />
+
+                </table>
+                <div id="total_show"></div>
+
+                <div id="paypal-button-container"></div>
+
+                <!-- Include the PayPal JavaScript SDK -->
+                <script src="https://www.paypal.com/sdk/js?client-id=ATLmCSkbzC8bA7ijaYsDFQyBW_ZCopJOxLDynvJj3gvtHHuWWLim2gcdADai5xNYViUdktKoMrQ9UJtj&currency=USD"></script>
+
+                <script>
+
+
+
+
+                        var total = document.querySelector('#total').value;
+                        var total_show = document.querySelector('#total_show').innerHTML = `El total es: ${total}`;
+                        // Render the PayPal button into #paypal-button-container
+                        paypal.Buttons({
+
+                            // Set up the transaction
+                            createOrder: function (data, actions) {
+                                return actions.order.create({
+                                purchase_units:[{
+                                    amount: {
+                                        value: @total,
+                                            currency: 'DOP'
+
+
+
+                                        }
+                                    }]
+                                });
+                            },
+
+                            // Finalize the transaction
+                            onApprove: function (data, actions) {
+                                return actions.order.capture().then(function (details) {
+                                    // Show a success message to the buyer
+                                    alert('Compra realizada con exito ' + details.payer.name.given_name + '!');
+                                });
+                            }
+
+
+                        }).render('#paypal-button-container');
+
+
+
+
+
+
+
+
+                </script>
+                <p id="botonP"></p>
+                <p class="card-text">Pago via paypal su producto se estara entregando pronto</p>
+                
+
+            </div>
+            <div class="card-footer text-muted">
+                2 days ago
+            </div>
+        </div>
+    </div>
+</div>
+
+

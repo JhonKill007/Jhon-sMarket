@@ -1,0 +1,81 @@
+﻿@model IEnumerable<ElMercaditoWeb.Models.Clientes>
+
+@{ ViewData["Title"] = "Index"; }
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@using Microsoft.AspNetCore.Authorization
+@inject IAuthorizationService AuthorizationService
+
+
+<br />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea8</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="container">
+            <div id="map" style="height:600px" class="border border-warning"></div>
+        </div>
+        
+
+        <script>
+            var map = L.map('map').fitWorld();
+
+
+
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+            }).addTo(map);
+
+
+        </script>
+
+        @if ((await AuthorizationService.AuthorizeAsync(User, "Admin")).Succeeded)
+         {
+            Int32 cont = 0;
+            @foreach (var item in Model)
+            {
+    <script>
+                    map.flyTo([@Html.DisplayFor(modelItem => item.Lat), @Html.DisplayFor(modelItem => item.Long)], 14);
+                        L.marker([@Html.DisplayFor(modelItem => item.Lat), @Html.DisplayFor(modelItem => item.Long)]).addTo(map)
+                            .bindPopup('Usuario: @Html.DisplayFor(modelItem => item.Usuario), Nombre: @Html.DisplayFor(modelItem => item.NombrePersona), Direccion: @Html.DisplayFor(modelItem => item.Direccion)')
+                            .openPopup();
+    </script>
+                @*if(cont < 1) 
+                { 
+    <script>
+                        map.flyTo([@Html.DisplayFor(modelItem => item.Lat), @Html.DisplayFor(modelItem => item.Long)], 14);
+                        L.marker([@Html.DisplayFor(modelItem => item.Lat), @Html.DisplayFor(modelItem => item.Long)]).addTo(map)
+                            .bindPopup('Usuario: @Html.DisplayFor(modelItem => item.Usuario), Nombre: @Html.DisplayFor(modelItem => item.NombrePersona), Direccion: @Html.DisplayFor(modelItem => item.Direccion)')
+                            .openPopup();
+    </script>   
+                     @cont = 1;
+                }
+                else 
+                { 
+    <script>
+                        L.marker([@Html.DisplayFor(modelItem => item.Lat), @Html.DisplayFor(modelItem => item.Long)]).addTo(map)
+                            .bindPopup('Usuario: @Html.DisplayFor(modelItem => item.Usuario), Nombre: @Html.DisplayFor(modelItem => item.NombrePersona), Direccion: @Html.DisplayFor(modelItem => item.Direccion)')
+                            .openPopup();
+    </script>
+                }*@
+                
+                        @Html.DisplayFor(modelItem => item.Usuario)
+                        @Html.DisplayFor(modelItem => item.NombrePersona)
+                        @Html.DisplayFor(modelItem => item.Direccion)
+                        @Html.DisplayFor(modelItem => item.Lat)
+                        @Html.DisplayFor(modelItem => item.Long)
+             }
+         }
+
+    </div>
+</body>
+</html>

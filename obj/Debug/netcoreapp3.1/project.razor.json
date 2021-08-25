@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb-master\\ElMercaditoWeb.csproj",
+  "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb\\ElMercaditoWeb.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -14402,283 +14402,288 @@
   "RootNamespace": "ElMercaditoWeb",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb-master\\Views\\Clientes\\Mapa.cshtml",
-      "TargetPath": "Views\\Clientes\\Mapa.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb-master\\Views\\Sliders\\Delete.cshtml",
-      "TargetPath": "Views\\Sliders\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb-master\\Views\\Clientes\\Delete.cshtml",
-      "TargetPath": "Views\\Clientes\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb-master\\Views\\Categorias\\Create.cshtml",
-      "TargetPath": "Views\\Categorias\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb-master\\Views\\Productos\\pago.cshtml",
-      "TargetPath": "Views\\Productos\\pago.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb-master\\Views\\Administrador\\MapaPedidos.cshtml",
-      "TargetPath": "Views\\Administrador\\MapaPedidos.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb-master\\Views\\Productos\\GetTodos.cshtml",
-      "TargetPath": "Views\\Productos\\GetTodos.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb-master\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb-master\\Views\\Productos\\GetBebidas.cshtml",
-      "TargetPath": "Views\\Productos\\GetBebidas.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb-master\\Views\\Sliders\\Create.cshtml",
-      "TargetPath": "Views\\Sliders\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb-master\\Views\\Clientes\\Index.cshtml",
-      "TargetPath": "Views\\Clientes\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb-master\\Views\\Productos\\ClientesProductos.cshtml",
-      "TargetPath": "Views\\Productos\\ClientesProductos.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb-master\\Views\\Categorias\\Details.cshtml",
-      "TargetPath": "Views\\Categorias\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb-master\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb-master\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
-      "TargetPath": "Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb-master\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb-master\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
-      "TargetPath": "Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb-master\\Views\\Sliders\\Edit.cshtml",
-      "TargetPath": "Views\\Sliders\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb-master\\Views\\Administrador\\EditUsersInRole.cshtml",
-      "TargetPath": "Views\\Administrador\\EditUsersInRole.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb-master\\Views\\Productos\\Edit.cshtml",
-      "TargetPath": "Views\\Productos\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb-master\\Views\\Productos\\GetFrutas.cshtml",
-      "TargetPath": "Views\\Productos\\GetFrutas.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb-master\\Views\\Administrador\\Principal.cshtml",
-      "TargetPath": "Views\\Administrador\\Principal.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb-master\\Views\\Clientes\\Edit.cshtml",
-      "TargetPath": "Views\\Clientes\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb-master\\Views\\Administrador\\CreateRole.cshtml",
-      "TargetPath": "Views\\Administrador\\CreateRole.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb-master\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb-master\\Views\\Productos\\GetCarnes.cshtml",
-      "TargetPath": "Views\\Productos\\GetCarnes.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb-master\\Views\\Administrador\\ListUser.cshtml",
-      "TargetPath": "Views\\Administrador\\ListUser.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb-master\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-      "TargetPath": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb-master\\Views\\Productos\\Delete.cshtml",
-      "TargetPath": "Views\\Productos\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb-master\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
-      "TargetPath": "Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb-master\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-      "TargetPath": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb-master\\Views\\Categorias\\Index.cshtml",
-      "TargetPath": "Views\\Categorias\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb-master\\Views\\Productos\\GetEmbutidos.cshtml",
-      "TargetPath": "Views\\Productos\\GetEmbutidos.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb-master\\Views\\Clientes\\Create.cshtml",
+      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb\\Views\\Clientes\\Create.cshtml",
       "TargetPath": "Views\\Clientes\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb-master\\Views\\Administrador\\EditRole.cshtml",
-      "TargetPath": "Views\\Administrador\\EditRole.cshtml",
+      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb-master\\Views\\Productos\\Getespecifico.cshtml",
-      "TargetPath": "Views\\Productos\\Getespecifico.cshtml",
+      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb\\Views\\Productos\\GetFrutas.cshtml",
+      "TargetPath": "Views\\Productos\\GetFrutas.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb-master\\Views\\Productos\\Create.cshtml",
-      "TargetPath": "Views\\Productos\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb-master\\Views\\Productos\\Carrito.cshtml",
-      "TargetPath": "Views\\Productos\\Carrito.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb-master\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb-master\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
-      "TargetPath": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb-master\\Views\\Categorias\\Edit.cshtml",
-      "TargetPath": "Views\\Categorias\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb-master\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
-      "TargetPath": "Areas\\Identity\\Pages\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb-master\\Views\\Sliders\\Index.cshtml",
-      "TargetPath": "Views\\Sliders\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb-master\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb-master\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml",
-      "TargetPath": "Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml",
+      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb-master\\Views\\Productos\\AddCart.cshtml",
-      "TargetPath": "Views\\Productos\\AddCart.cshtml",
+      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb-master\\Views\\Productos\\Index.cshtml",
-      "TargetPath": "Views\\Productos\\Index.cshtml",
+      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb\\Views\\Administrador\\EditRole.cshtml",
+      "TargetPath": "Views\\Administrador\\EditRole.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb-master\\Views\\Productos\\Details.cshtml",
-      "TargetPath": "Views\\Productos\\Details.cshtml",
+      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb\\Views\\Administrador\\MapaPedidos.cshtml",
+      "TargetPath": "Views\\Administrador\\MapaPedidos.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb-master\\Views\\Sliders\\Details.cshtml",
-      "TargetPath": "Views\\Sliders\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb-master\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
-      "TargetPath": "Areas\\Identity\\Pages\\Account\\Logout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb-master\\Views\\Clientes\\Details.cshtml",
-      "TargetPath": "Views\\Clientes\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb-master\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb-master\\Views\\Categorias\\Delete.cshtml",
+      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb\\Views\\Categorias\\Delete.cshtml",
       "TargetPath": "Views\\Categorias\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb-master\\Views\\Administrador\\ListRoles.cshtml",
-      "TargetPath": "Views\\Administrador\\ListRoles.cshtml",
+      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb\\Views\\Sliders\\Index.cshtml",
+      "TargetPath": "Views\\Sliders\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb-master\\Views\\Shared\\_LoginPartial.cshtml",
+      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb\\Views\\Shared\\_LoginPartial.cshtml",
       "TargetPath": "Views\\Shared\\_LoginPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb-master\\Views\\Shared\\Error.cshtml",
+      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb\\Views\\Sliders\\Details.cshtml",
+      "TargetPath": "Views\\Sliders\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb\\Views\\Administrador\\EditUsersInRole.cshtml",
+      "TargetPath": "Views\\Administrador\\EditUsersInRole.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb\\Views\\Productos\\Details.cshtml",
+      "TargetPath": "Views\\Productos\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb\\Views\\Productos\\AddCart.cshtml",
+      "TargetPath": "Views\\Productos\\AddCart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb\\Views\\Clientes\\Edit.cshtml",
+      "TargetPath": "Views\\Clientes\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb\\Views\\Categorias\\Create.cshtml",
+      "TargetPath": "Views\\Categorias\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb\\Views\\Clientes\\Details.cshtml",
+      "TargetPath": "Views\\Clientes\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb\\Views\\Productos\\Edit.cshtml",
+      "TargetPath": "Views\\Productos\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb\\Views\\Productos\\Index.cshtml",
+      "TargetPath": "Views\\Productos\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb\\Views\\Sliders\\Create.cshtml",
+      "TargetPath": "Views\\Sliders\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb\\Views\\Productos\\GetEmbutidos.cshtml",
+      "TargetPath": "Views\\Productos\\GetEmbutidos.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb\\Views\\Productos\\GetCarnes.cshtml",
+      "TargetPath": "Views\\Productos\\GetCarnes.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb\\Views\\Productos\\Carrito.cshtml",
+      "TargetPath": "Views\\Productos\\Carrito.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb\\Views\\Clientes\\Mapa.cshtml",
+      "TargetPath": "Views\\Clientes\\Mapa.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb\\Views\\Administrador\\ListUser.cshtml",
+      "TargetPath": "Views\\Administrador\\ListUser.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb\\Views\\Productos\\GetTodos.cshtml",
+      "TargetPath": "Views\\Productos\\GetTodos.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb\\Views\\Productos\\ClientesProductos.cshtml",
+      "TargetPath": "Views\\Productos\\ClientesProductos.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb\\Views\\Productos\\GetBebidas.cshtml",
+      "TargetPath": "Views\\Productos\\GetBebidas.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb\\Views\\Administrador\\ListRoles.cshtml",
+      "TargetPath": "Views\\Administrador\\ListRoles.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb\\Views\\Administrador\\Principal.cshtml",
+      "TargetPath": "Views\\Administrador\\Principal.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb\\Views\\Categorias\\Edit.cshtml",
+      "TargetPath": "Views\\Categorias\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb\\Views\\Administrador\\CreateRole.cshtml",
+      "TargetPath": "Views\\Administrador\\CreateRole.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb\\Views\\Clientes\\Cumple.cshtml",
+      "TargetPath": "Views\\Clientes\\Cumple.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb\\Views\\Sliders\\Delete.cshtml",
+      "TargetPath": "Views\\Sliders\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb\\Views\\Clientes\\Index.cshtml",
+      "TargetPath": "Views\\Clientes\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb\\Views\\Productos\\Getespecifico.cshtml",
+      "TargetPath": "Views\\Productos\\Getespecifico.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb\\Views\\Clientes\\Delete.cshtml",
+      "TargetPath": "Views\\Clientes\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb\\Views\\Categorias\\Index.cshtml",
+      "TargetPath": "Views\\Categorias\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb\\Views\\Sliders\\Edit.cshtml",
+      "TargetPath": "Views\\Sliders\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb\\Views\\Productos\\Delete.cshtml",
+      "TargetPath": "Views\\Productos\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb\\Views\\Productos\\Create.cshtml",
+      "TargetPath": "Views\\Productos\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb\\Views\\Productos\\pago.cshtml",
+      "TargetPath": "Views\\Productos\\pago.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jhon David\\Desktop\\ElMercaditoWeb\\Views\\Categorias\\Details.cshtml",
+      "TargetPath": "Views\\Categorias\\Details.cshtml",
       "FileKind": "mvc"
     }
   ],
